@@ -2,7 +2,7 @@ import classes from "./User.module.css";
 import React from "react";
 class User extends React.Component {
   componentWillUnmount() {
-    console.log("unmounted");
+    console.log("user component is unmounted");
   }
   render() {
     const { name } = this.props;
